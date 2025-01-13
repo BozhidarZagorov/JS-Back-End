@@ -1,0 +1,13 @@
+<h1>Home Page</h1>
+
+{{#each cats}}
+<article>
+    <h3>{{name}}</h3>
+    {{#if isStar}}
+    <div>SUPERSTAR</div>
+    {{/if}}
+    <img src="{{imageUrl}}" alt="{{name}}">
+</article>
+{{/each}}
+
+{{>lorem}}

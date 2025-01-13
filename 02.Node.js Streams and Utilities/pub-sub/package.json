@@ -1,0 +1,13 @@
+{
+  "name": "02.js-back-end-nodejs-streams-and-utillities",
+  "version": "1.0.0",
+  "main": "backoffice-system.js",
+  "scripts": {
+    "start": "node backoffice-system.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": ""
+}

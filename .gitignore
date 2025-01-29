@@ -6,3 +6,6 @@
 05.NoSQL and MongoDB/mongoose/node_modules
 05.NoSQL and MongoDB/mongoDb/node_modules
 06.Authentication/node_modules
+.env
+node_modules
+package-lock.json

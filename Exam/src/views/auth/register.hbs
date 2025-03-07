@@ -1,0 +1,16 @@
+        {{setTitle "Register"}}
+        <div class="register-box">
+            <h1>Register</h1>
+            <form method="POST">
+                <label>Username</label>
+                <input type="text" id="name" name="username" value="{{user.username}}" placeholder="Username..">
+                <label>Email</label>
+                <input type="text" id="email" name="email" value="{{user.email}}" placeholder="Email..">
+                <label>Password</label>
+                <input type="password" id="password" name="password" placeholder="Password..">
+                <label>Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password..">
+                <input type="submit" value="Submit">
+            </form>
+            <p>Already have an account? <a href="/auth/login">Login here</a></p>
+        </div>
